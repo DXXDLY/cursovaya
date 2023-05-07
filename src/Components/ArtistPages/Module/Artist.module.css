@@ -1,0 +1,19 @@
+.relatedArtists {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+flex-direction: column;
+}
+
+.relatedArtists_img {
+    width: 250px;
+    height: 100%;
+}
+
+.relatedArtists_img img {
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+}
